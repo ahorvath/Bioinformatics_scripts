@@ -29,7 +29,20 @@ For more information on Artistic-2.0 License see [http://opensource.org/licenses
 
 ## remap_motif.sh ##
 
+## Usage ##
 
-USAGE: remap_motif.sh <PEAK> <MOTIF> <SIZE> <GENOME>
+sh remap_motif.sh <PEAK> <MOTIF> <SIZE> <GENOME>
 
-EXAMPLE: remap_motif.sh example.bed rxr.motif 200 mm10
+## Example ##
+
+sh remap_motif.sh examples/example.bed examples/rxr.motif 200 mm10
+
+## Results ##
+
+# a folder named example_rxr_mm10s_200_remaped containing the following files
+# example_rxr_mm10s_200_remaped_mbed.bed # - containing genomic locations of the motives found (can be opened with https://www.broadinstitute.org/igv/)
+# example_rxr_mm10s_200_remaped_w_motives.bed # - containing genomic locations of the input peaks and annotated with he motif files found (can be opened with https://www.broadinstitute.org/igv/)
+# example_rxr_mm10s_200_remaped_w_motives.txt # - similar to the previous one but a pos file developed and preferred by Homer (can be opened with e.g. Excel) 
+# example_rxr_mm10s_200_remaped.log # - log file for debugging
+# example_rxr_mm10s_200_remaped_w_motives.stat # - simple statistics of the motif occurences
+
