@@ -31,7 +31,8 @@ For more information on Artistic-2.0 License see [http://opensource.org/licenses
 
 ## Usage ##
 
-sh remap_motif.sh \<PEAK\> <MOTIF> <SIZE> <GENOME>
+sh remap_motif.sh \<PEAK\> \<MOTIF\> \<SIZE\> \<GENOME\>
+
 
 ## Example ##
 
