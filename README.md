@@ -3,7 +3,7 @@
 
 ## Authors ##
 
-Attila Horváh, PhD Student, bioinformatician
+Attila Horváth, PhD Student, bioinformatician
 Email: horvath.attila@med.unideb.hu
 
 NLab [http://nlab.med.unideb.hu/](http://nlab.med.unideb.hu/)
@@ -32,8 +32,8 @@ All source code is copyright, under the Artistic-2.0 License.
 For more information on Artistic-2.0 License see [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0)
 
 ## Prerequisites ##
-+ BWA[http://bio-bwa.sourceforge.net](http://bio-bwa.sourceforge.net/)
-+ SAMtool[shttp://samtools.sourceforge.net](http://samtools.sourceforge.net/)
++ BWA [http://bio-bwa.sourceforge.net](http://bio-bwa.sourceforge.net/)
++ SAMtools [shttp://samtools.sourceforge.net](http://samtools.sourceforge.net/)
 ## remap_motif.sh ##
 
 ## Usage ##
