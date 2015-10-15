@@ -38,46 +38,46 @@ For more information on Artistic-2.0 License see [http://opensource.org/licenses
 
 ## Tutorial ##
 
-\# The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from [here](ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu)
+The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from [here](ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu)
 
-\# BWA index files can be found [ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz](here)
+ BWA index files can be found [ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz](here)
 
-\# To extract file: tar xvfz Mus_musculus_UCSC_mm10.tar.gz
+To extract file: tar xvfz Mus_musculus_UCSC_mm10.tar.gz
 
-\# aligning the example fastq file to mm10 genome
-
+ Aligning the example fastq file to mm10 genome
+```
 sh perform_alignment.sh mm_ES_RXR_24h_ATRA.fastq.gz Mus_musculus/UCSC/mm10/Sequence/BWAIndex/version0.6.0/genome.fa
+```
+Calling peaks and finding de novo motives (bam file is produced by the previous script
 
-\# calling peaks and finding de novo motives (bam file is produced by the previous script
-
-\# assumed that HOMER mm10 genome is installed, see [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html))
-
+Assumed that HOMER mm10 genome is installed, see [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html))
+```
 sh callpeaks.sh mm_ES_RXR_24h_ATRA/bam/mm_ES_RXR_24h_ATRA.bam mm10
-
-\# finding motif occurences on the peaks found
-
+```
+Finding motif occurences on the peaks found
+```
 MOTIF=
 
 sh remap_motif.sh mm_ES_RXR_24h_ATRA/peaks/mm_ES_RXR_24h_ATRA_homerpeaks.bed ${MOTIF} 200 mm10
-
+```
 ## Bash scripts ##
 
 ### callpeaks.sh ###
 
 ### Usage ###
-
+```
 sh callpeaks.sh <BAMFILE> <GENOME>
-
+```
 ### remap_motif.sh ###
 
 ### Usage ###
-
+```
 sh remap_motif.sh \<PEAK\> \<MOTIF\> \<SIZE\> \<GENOME\>
-
+```
 ### Example ###
-
+```
 sh remap_motif.sh examples/example.bed examples/rxr.motif 200 mm10
-
+```
 ### Results ###
 
 a folder named example_rxr_mm10s_200_remaped containing the following files
