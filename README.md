@@ -38,11 +38,16 @@ For more information on Artistic-2.0 License see [http://opensource.org/licenses
 
 ## Tutorial ##
 
-The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from [here](ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu)
+The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from 
+HTML <a href="ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu">here</a> 
 
- BWA index files can be found [ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz](here)
+BWA index files can be found 
+HTML <a href="ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz">here</a>  
 
-To extract file: tar xvfz Mus_musculus_UCSC_mm10.tar.gz
+To extract file: 
+```
+tar xvfz Mus_musculus_UCSC_mm10.tar.gz
+```
 
  Aligning the example fastq file to mm10 genome
 ```
@@ -72,7 +77,7 @@ sh callpeaks.sh <BAMFILE> <GENOME>
 
 ### Usage ###
 ```
-sh remap_motif.sh \<PEAK\> \<MOTIF\> \<SIZE\> \<GENOME\>
+sh remap_motif.sh <PEAK> <MOTIF> <SIZE> <GENOME>
 ```
 ### Example ###
 ```
