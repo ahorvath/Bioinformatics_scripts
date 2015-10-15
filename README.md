@@ -38,7 +38,7 @@ For more information on Artistic-2.0 License see [http://opensource.org/licenses
 
 ## Tutorial ##
 
-\# The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from [ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu](here)
+\# The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from [here](ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu)
 
 \# BWA index files can be found [ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz](here)
 
