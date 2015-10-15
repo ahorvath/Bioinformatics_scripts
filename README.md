@@ -38,9 +38,9 @@ For more information on Artistic-2.0 License see [http://opensource.org/licenses
 
 ## Tutorial ##
 
-\# The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from [here](ftp://ngsdata.ngsdeb.med.unideb.hu)
+\# The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from [ftp://ngsdata.ngsdeb.med.unideb.hu](ftp://ngsdata.ngsdeb.med.unideb.hu)
 
-\# BWA index files can be found [here](ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz)
+\# BWA index files can be found [ftp://ussd-ftp.illumina.com](ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz)
 
 \# To extract file: tar xvfz Mus_musculus_UCSC_mm10.tar.gz
 
@@ -59,25 +59,25 @@ sh callpeaks.sh mm_ES_RXR_24h_ATRA/bam/mm_ES_RXR_24h_ATRA.bam mm10
 MOTIF=
 sh remap_motif.sh mm_ES_RXR_24h_ATRA/peaks/mm_ES_RXR_24h_ATRA_homerpeaks.bed \${MOTIF} 200 mm10
 
-### Bash scripts ###
+## Bash scripts ##
 
-## callpeaks.sh ##
+### callpeaks.sh ###
 
-## Usage ##
+### Usage ###
 
 sh callpeaks.sh <BAMFILE> <GENOME>
 
-## remap_motif.sh ##
+### remap_motif.sh ###
 
-## Usage ##
+### Usage ###
 
 sh remap_motif.sh \<PEAK\> \<MOTIF\> \<SIZE\> \<GENOME\>
 
-## Example ##
+### Example ###
 
 sh remap_motif.sh examples/example.bed examples/rxr.motif 200 mm10
 
-## Results ##
+### Results ###
 
 a folder named example_rxr_mm10s_200_remaped containing the following files
 
