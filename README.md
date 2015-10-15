@@ -34,6 +34,7 @@ For more information on Artistic-2.0 License see [http://opensource.org/licenses
 ## Prerequisites ##
 + BWA [http://bio-bwa.sourceforge.net](http://bio-bwa.sourceforge.net/)
 + SAMtools [shttp://samtools.sourceforge.net](http://samtools.sourceforge.net/)
+
 ## remap_motif.sh ##
 
 ## Usage ##
