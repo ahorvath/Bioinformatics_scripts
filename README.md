@@ -36,6 +36,27 @@ For more information on Artistic-2.0 License see [http://opensource.org/licenses
 + SAMtools [http://samtools.sourceforge.net](http://samtools.sourceforge.net/)
 + HOMER [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html)
 
+## Tutorial ##
+
+# The example fastq file mm_ES_siSCR_I7_RXR_ATRA.fastq.gz can be downloaded from [here](ftp://ngsdata.ngsdeb.med.unideb.hu)
+# BWA index files can be found [here](ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz)
+# To extract file: tar xvfz Mus_musculus_UCSC_mm10.tar.gz
+# aligning the example fastq file to mm10 genome
+
+sh perform_alignment.sh mm_ES_siSCR_I7_RXR_ATRA.fastq.gz Mus_musculus/UCSC/mm10/Sequence/BWAIndex/version0.6.0/genome.fa
+
+# calling peaks and finding de novo motives (bam file is produced by the previous script, assumed that HOMER mm10 genome is installed, see [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html))
+
+sh callpeaks.sh mm_ES_siSCR_I7_RXR_ATRA/bam/mm_ES_siSCR_I7_RXR_ATRA.bam mm10
+
+sh remap_motif.sh   200 mm10
+
+## callpeaks.sh ##
+
+## Usage ##
+
+sh callpeaks.sh <BAMFILE> <GENOME>
+
 ## remap_motif.sh ##
 
 ## Usage ##
