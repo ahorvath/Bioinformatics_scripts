@@ -1,6 +1,65 @@
 ## Bioinformatics_scripts ##
 
+The following bioinformatics scripts and description was prepared as 
 
+supplementary information for the manuscript published in Journal of 
+
+Visualized Experiments (JoVE).
+
+Please cite the following paper:
+
+### TITLE: ###
+
+"Prediction and validation of gene regulatory elements activated during retinoic acid induced embryonic stem cell differentiation"
+
+### AUTHORS: ###
+
+Zoltan Simandi1,§, Attila Horvath2,§, Gergely Peter Nagy1, Laszlo Nagy1,2,3
+
+1 Sanford-Burnham-Prebys Medical Discovery Institute at Lake Nona, Orlando, FL, 
+
+USA
+
+2 Department of Biochemistry and Molecular Biology, Research Center for Molecular 
+
+Medicine, University of Debrecen, Medical and Health Science Center,  Egyetem ter 
+
+1, Debrecen, Hungary H-4012
+
+3 MTA-DE "Lendulet" Immunogenomics Research Group, 
+
+University of Debrecen, Egyetem ter 1, Debrecen, Hungary H-4012
+
+§ These authors equally contributed to this work
+
+### Dear Visitor! ###
+
+This site is aiming to share bioinformatics scripts that are part of our workflow for 
+ChIP-seq data analysis.
+To be able to use them there are prerequisites and bioinformatics background is 
+needed. Software packages listed below under ?Prerequisites ? should be installed 
+prior running any of the scripts. To download the content of this page to your computer please click on the 
+"Download ZIP". The downloaded files will include the scripts (perform_alignment.sh, callpeaks.sh, remap_motif.sh) and the output files obtained with the sample scripts during the analysis. 
+Some of the data and output files exceed the available size limit. Please find the links 
+below to access to those files (eg. raw data in fastq, BWA index file, motif files, etc.).
+
+The "Tutorial" part cover the following steps of the ChIP-seq data analysis:
+
+1. You will find below a link to download an example fastq file 
+
+(mm_ES_RXR_24h_ATRA.fastq.gz). This can be replaced with your own data.
+
+2. Downloading and extracting the required BWA index file (in our case: Mus_musculus_UCSC_mm10) for the alignment. 
+
+3. Alignment of the example fastq file to mm10 genome 
+
+(perform_alignment.sh) 
+
+4. Peak calling and de novo motif analysis (callpeaks.sh)
+
+5. Remapping of the selected motif (remap_motif.sh)
+
+# License #
 
 All source code is copyright, under the Artistic-2.0 License.
 For more information on Artistic-2.0 License see [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0)
@@ -97,4 +156,4 @@ ResearchGate
 [ResearchGate](https://www.researchgate.net/profile/Attila_Horvath9)
 [LinkedIn](https://www.linkedin.com/hp/?dnr=oVL_xVLIOvvZ7IVooNyotA0wOPufXI8UAya1)
 
-## License ##
+
