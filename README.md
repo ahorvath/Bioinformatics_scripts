@@ -1,35 +1,66 @@
 ## Bioinformatics_scripts ##
 
+The following bioinformatics scripts and description was prepared as 
 
-## Authors ##
+supplementary information for the manuscript published in Journal of 
 
-Attila Horváth, PhD Student, bioinformatician
-Email: horvath.attila@med.unideb.hu
+Visualized Experiments (JoVE).
 
-NLab [http://nlab.med.unideb.hu/](http://nlab.med.unideb.hu/)
+Please cite the following paper:
 
-University of Debrecen-Med. and Health Sci. Centre
+TITLE: 
 
-Department of Biochemistry and Molecular Biology
+Prediction and validation of gene regulatory elements activated during retinoic 
 
-Clinical Genomics Centre/ IVDI Building
+acid induced embryonic stem cell differentiation
 
-Nagyerdei krt 98
+AUTHORS: 
 
-H-4012 Pf6, Debrecen, Hungary
+Zoltan Simandi1,§, Attila Horvath2,§, Gergely Peter Nagy1, Laszlo Nagy1,2,3
 
-location: http://g.co/maps/5hm59
+1 Sanford-Burnham-Prebys Medical Discovery Institute at Lake Nona, Orlando, FL, 
 
-phone: +36-52-411717/ext 50231
+USA
 
-ResearchGate
-[ResearchGate](https://www.researchgate.net/profile/Attila_Horvath9)
-[LinkedIn](https://www.linkedin.com/hp/?dnr=oVL_xVLIOvvZ7IVooNyotA0wOPufXI8UAya1)
+2 Department of Biochemistry and Molecular Biology, Research Center for Molecular 
 
-## License ##
+Medicine, University of Debrecen, Medical and Health Science Center,  Egyetem ter 
 
-All source code is copyright, under the Artistic-2.0 License.
-For more information on Artistic-2.0 License see [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0)
+1, Debrecen, Hungary H-4012
+
+3 MTA-DE Lendulet Immunogenomics Research Group, 
+
+University of Debrecen, Egyetem ter 1, Debrecen, Hungary H-4012
+
+§ These authors equally contributed to this work
+
+Dear Visitor!
+
+This site is aiming to share bioinformatics scripts that are part of our workflow for 
+
+ChIP-seq data analysis.
+
+To be able to use them there are prerequisites and bioinformatics background is needed.  Software packages listed below under"Prerequisite" should be installed prior running any of the scripts.
+
+To download the content of this page to your computer please click on the 
+"Download ZIP". The downloaded files will include the scripts (perform_alignment.sh, callpeaks.sh, remap_motif.sh) and the output files obtained with the sample scripts during the analysis. 
+
+Some of the data and output files exceed the available size limit. Please find the links 
+
+below to access to those files (eg. raw data in fastq, BWA index file, motif files, etc.).
+
+The "Tutorial" part cover the following steps of the ChIP-seq data analysis:
+
+1. You will find below a link to download an example fastq file (mm_ES_RXR_24h_ATRA.fastq.gz). This can be replaced with your own data.
+
+2. Downloading and extracting the required BWA index file (in our case: Mus_musculus_UCSC_mm10) for the alignment. 
+
+3. Alignment of the example fastq file to mm10 genome (perform_alignment.sh) 
+
+4. Peak calling and de novo motif analysis (callpeaks.sh)
+
+5. Remapping of the selected motif (remap_motif.sh)
+
 
 ## Prerequisites ##
 + BWA [http://bio-bwa.sourceforge.net](http://bio-bwa.sourceforge.net/)
@@ -96,4 +127,34 @@ a folder named example_rxr_mm10s_200_remaped containing the following files
 + example_rxr_mm10s_200_remaped.log  - a log file for debugging
 
 + example_rxr_mm10s_200_remaped_w_motives.stat - a simple statistics of the motif occurences
+
+## Authors ##
+
+Attila Horváth, PhD Student, bioinformatician
+Email: horvath.attila@med.unideb.hu
+
+NLab [http://nlab.med.unideb.hu/](http://nlab.med.unideb.hu/)
+
+University of Debrecen-Med. and Health Sci. Centre
+
+Department of Biochemistry and Molecular Biology
+
+Clinical Genomics Centre/ IVDI Building
+
+Nagyerdei krt 98
+
+H-4012 Pf6, Debrecen, Hungary
+
+location: http://g.co/maps/5hm59
+
+phone: +36-52-411717/ext 50231
+
+ResearchGate
+[ResearchGate](https://www.researchgate.net/profile/Attila_Horvath9)
+[LinkedIn](https://www.linkedin.com/hp/?dnr=oVL_xVLIOvvZ7IVooNyotA0wOPufXI8UAya1)
+
+## License ##
+
+All source code is copyright, under the Artistic-2.0 License.
+For more information on Artistic-2.0 License see [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0)
 
