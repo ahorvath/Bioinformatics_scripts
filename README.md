@@ -40,15 +40,11 @@ below to access to those files (eg. raw data in fastq, BWA index file, motif fil
 
 The "Tutorial" part cover the following steps of the ChIP-seq data analysis:
 
-1. You will find below a link to download an example fastq file 
-
-(mm_ES_RXR_24h_ATRA.fastq.gz). This can be replaced with your own data.
+1. You will find below a link to download an example fastq file (mm_ES_RXR_24h_ATRA.fastq.gz). This can be replaced with your own data.
 
 2. Downloading and extracting the required BWA index file (in our case: Mus_musculus_UCSC_mm10) for the alignment. 
 
-3. Alignment of the example fastq file to mm10 genome 
-
-(perform_alignment.sh) 
+3. Alignment of the example fastq file to mm10 genome (perform_alignment.sh) 
 
 4. Peak calling and de novo motif analysis (callpeaks.sh)
 
@@ -67,10 +63,10 @@ For more information on Artistic-2.0 License see [http://opensource.org/licenses
 ## Tutorial ##
 
 The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from 
-HTML <a href="ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu">here</a> 
+ <a href="ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu">here</a> 
 
 BWA index files can be found 
-HTML <a href="ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz">here</a>  
+ <a href="ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz">here</a>  
 
 To extract file: 
 ```
