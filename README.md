@@ -28,7 +28,7 @@ Medicine, University of Debrecen, Medical and Health Science Center,  Egyetem te
 
 1, Debrecen, Hungary H-4012
 
-3 MTA-DE Lendulet Immunogenomics Research Group, 
+3 MTA-DE "Lendulet" Immunogenomics Research Group, 
 
 University of Debrecen, Egyetem ter 1, Debrecen, Hungary H-4012
 
@@ -40,7 +40,7 @@ This site is aiming to share bioinformatics scripts that are part of our workflo
 
 ChIP-seq data analysis.
 
-To be able to use them there are prerequisites and bioinformatics background is needed.  Software packages listed below under"Prerequisite" should be installed prior running any of the scripts.
+To be able to use them there are prerequisites and bioinformatics background is needed.  Software packages listed below under "Prerequisite" should be installed prior running any of the scripts.
 
 To download the content of this page to your computer please click on the 
 "Download ZIP". The downloaded files will include the scripts (perform_alignment.sh, callpeaks.sh, remap_motif.sh) and the output files obtained with the sample scripts during the analysis. 
