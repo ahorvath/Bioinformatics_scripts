@@ -9,16 +9,13 @@ Visualized Experiments (JoVE).
 Please cite the following paper:
 
 TITLE: 
-
-Prediction and validation of gene regulatory elements activated during retinoic 
-
-acid induced embryonic stem cell differentiation
+"Prediction and validation of gene regulatory elements activated during retinoic acid induced embryonic stem cell differentiation"
 
 AUTHORS: 
 
 Zoltan Simandi1,§, Attila Horvath2,§, Gergely Peter Nagy1, Laszlo Nagy1,2,3
 
-1 Sanford-Burnham-Prebys Medical Discovery Institute at Lake Nona, Orlando, FL, 
+c1 Sanford-Burnham-Prebys Medical Discovery Institute at Lake Nona, Orlando, FL, 
 
 USA
 
