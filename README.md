@@ -1,18 +1,12 @@
 ## Bioinformatics_scripts ##
 
-The following bioinformatics scripts and description was prepared as 
-
-supplementary information for the manuscript published in Journal of 
-
-Visualized Experiments (JoVE).
+The following bioinformatics scripts and description was prepared as supplementary information for the manuscript published in Journal of Visualized Experiments (JoVE).
 
 Please cite the following paper:
 
-### TITLE: ###
+#### TITLE: #### "Prediction and validation of gene regulatory elements activated during retinoic acid induced embryonic stem cell differentiation"
 
-"Prediction and validation of gene regulatory elements activated during retinoic acid induced embryonic stem cell differentiation"
-
-### AUTHORS: ###
+#### AUTHORS: ####
 
 Zoltan Simandi1,§, Attila Horvath2,§, Gergely Peter Nagy1, Laszlo Nagy1,2,3
 
@@ -32,7 +26,7 @@ University of Debrecen, Egyetem ter 1, Debrecen, Hungary H-4012
 
 § These authors equally contributed to this work
 
-### Dear Visitor! ###
+#### Dear Visitor! ####
 
 This site is aiming to share bioinformatics scripts that are part of our workflow for 
 ChIP-seq data analysis.
