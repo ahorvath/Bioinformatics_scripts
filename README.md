@@ -4,7 +4,8 @@ The following bioinformatics scripts and description was prepared as supplementa
 
 Please cite the following paper:
 
-#### TITLE: #### "Prediction and validation of gene regulatory elements activated during retinoic acid induced embryonic stem cell differentiation"
+#### TITLE: ####
+"Prediction and validation of gene regulatory elements activated during retinoic acid induced embryonic stem cell differentiation"
 
 #### AUTHORS: ####
 
