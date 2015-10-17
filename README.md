@@ -1,10 +1,6 @@
 ## Bioinformatics_scripts ##
 
-The following bioinformatics scripts and description was prepared as 
-
-supplementary information for the manuscript published in Journal of 
-
-Visualized Experiments (JoVE).
+The following bioinformatics scripts and description was prepared as supplementary information for the manuscript published in Journal of Visualized Experiments (JoVE).
 
 Please cite the following paper:
 
@@ -32,6 +28,7 @@ University of Debrecen, Egyetem ter 1, Debrecen, Hungary H-4012
 § These authors equally contributed to this work
 
 Dear Visitor!
+
 
 This site is aiming to share bioinformatics scripts that are part of our workflow for 
 
