@@ -86,9 +86,9 @@ sh callpeaks.sh mm_ES_RXR_24h_ATRA/bam/mm_ES_RXR_24h_ATRA.bam mm10
 ```
 Finding motif occurences on the peaks found
 ```
-MOTIF=
+MOTIF=motifResults_10,12,14,16/mm_ES_RXR_24h_ATRA_motif_mm10_s300/homerResults/motif1.motif
 
-sh remap_motif.sh mm_ES_RXR_24h_ATRA/peaks/mm_ES_RXR_24h_ATRA_homerpeaks.bed ${MOTIF} 200 mm10
+sh remap_motif.sh mm_ES_RXR_24h_ATRA/peaks/mm_ES_RXR_24h_ATRA/mm_ES_RXR_24h_ATRA_homerpeaks.bed ${MOTIF} 200 mm10
 ```
 ## Bash scripts ##
 
