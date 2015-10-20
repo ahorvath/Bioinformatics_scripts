@@ -94,12 +94,15 @@ The "Tutorial" part cover the following steps of the ChIP-seq data analysis:
   ```
   sh callpeaks.sh mm_ES_RXR_24h_ATRA/bam/mm_ES_RXR_24h_ATRA.bam mm10
   ```
+The results (motifResults_10,12,14,16) can be found on ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu
+
 5. Finding motif occurences on the peaks found
   ```
   MOTIF=motifResults_10,12,14,16/mm_ES_RXR_24h_ATRA_motif_mm10_s300/homerResults/motif1.motif
 
   sh remap_motif.sh mm_ES_RXR_24h_ATRA/peaks/mm_ES_RXR_24h_ATRA/mm_ES_RXR_24h_ATRA_homerpeaks.bed ${MOTIF} 200 mm10
   ```
+
 ## Bash scripts ##
 
 ### callpeaks.sh ###
