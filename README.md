@@ -91,7 +91,7 @@ The binaries of these programs should be added to PATH.
   sh perform_alignment.sh mm_ES_RXR_24h_ATRA.fastq.gz Mus_musculus/UCSC/mm10/Sequence/BWAIndex/version0.6.0/genome.fa
   ```
 
-  The output files of the alignment step e mm_ES_RXR_24h_ATRA.fastq.gz can be also downloaded from http://ngsdebftp.med.unideb.hu/bioinformatics/
+  The output files of the alignment step (mm_ES_RXR_24h_ATRA/bam/mm_ES_RXR_24h_ATRA.bam, mm_ES_RXR_24h_ATRA/bam/mm_ES_RXR_24h_ATRA.bai, mm_ES_RXR_24h_ATRA/bam/mm_ES_RXR_24h_ATRA.bamstats) can be also downloaded from http://ngsdebftp.med.unideb.hu/bioinformatics/
 
 4. Calling peaks and finding de novo motives (bam file is produced by the previous script
 
