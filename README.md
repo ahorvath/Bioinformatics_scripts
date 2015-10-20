@@ -68,6 +68,8 @@ The "Tutorial" part cover the following steps of the ChIP-seq data analysis:
 + BamTools [https://github.com/pezmaster31/bamtools]
 + HOMER [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html)
 
+The binaries of these programs should be added to PATH.
+
 ## Tutorial ##
 
 1. The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from 
