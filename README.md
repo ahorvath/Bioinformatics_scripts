@@ -121,7 +121,6 @@ The results (motifResults_10,12,14,16) can be found on
   ```
 
 The results (mm_ES_RXR_24h_ATRA_homerpeaks_motif1_mm10s_200_remaped) can be downloaded from
-
   <ftp://ngsdebftp.med.unideb.hu>
 
   (User: bioinformatics_scripts, Pass: G3nom3s4u)
