@@ -74,7 +74,7 @@ The binaries of these programs should be added to PATH.
 
 1. The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from
  
-  <ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu>
+  <ftp://ngsdebftp.med.unideb.hu>
 
   (User: bioinformatics_scripts, Pass: G3nom3s4u)
 
@@ -96,7 +96,7 @@ The binaries of these programs should be added to PATH.
 
   The output files of the alignment step e mm_ES_RXR_24h_ATRA.fastq.gz can be also downloaded from 
 
-  <ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu>
+  <ftp://ngsdebftp.med.unideb.hu>
 
   (User: bioinformatics_scripts, Pass: G3nom3s4u)
 
@@ -108,7 +108,7 @@ The binaries of these programs should be added to PATH.
   ```
 The results (motifResults_10,12,14,16) can be found on 
 
-  <ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu>
+  <ftp://ngsdebftp.med.unideb.hu>
 
   (User: bioinformatics_scripts, Pass: G3nom3s4u)
 
@@ -122,7 +122,7 @@ The results (motifResults_10,12,14,16) can be found on
 
 The results (mm_ES_RXR_24h_ATRA_homerpeaks_motif1_mm10s_200_remaped) can be downloaded from
 
-  <ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu>
+  <ftp://ngsdebftp.med.unideb.hu>
 
   (User: bioinformatics_scripts, Pass: G3nom3s4u)
 
