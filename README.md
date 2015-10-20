@@ -78,6 +78,9 @@ tar xvfz Mus_musculus_UCSC_mm10.tar.gz
 ```
 sh perform_alignment.sh mm_ES_RXR_24h_ATRA.fastq.gz Mus_musculus/UCSC/mm10/Sequence/BWAIndex/version0.6.0/genome.fa
 ```
+
+The output files of the alignment step e mm_ES_RXR_24h_ATRA.fastq.gz can be also downloaded from ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu
+
 Calling peaks and finding de novo motives (bam file is produced by the previous script
 
 Assumed that HOMER mm10 genome is installed, see [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html))
