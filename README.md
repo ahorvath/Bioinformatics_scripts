@@ -72,17 +72,10 @@ The binaries of these programs should be added to PATH.
 
 ## Tutorial ##
 
-1. The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from
+1. The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from http://ngsdebftp.med.unideb.hu/bioinformatics/
+
  
-  <ftp://ngsdebftp.med.unideb.hu>
-
-  User: bioinformatics_scripts
-
-  Pass: z072yyq
-
-2. BWA index files can be found 
-
-  <ftp://ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz>
+2. BWA index files can be found  <ftp://ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz>
 
   User: igenome
 
@@ -98,13 +91,7 @@ The binaries of these programs should be added to PATH.
   sh perform_alignment.sh mm_ES_RXR_24h_ATRA.fastq.gz Mus_musculus/UCSC/mm10/Sequence/BWAIndex/version0.6.0/genome.fa
   ```
 
-  The output files of the alignment step e mm_ES_RXR_24h_ATRA.fastq.gz can be also downloaded from 
-
-  <ftp://ngsdebftp.med.unideb.hu>
-
-  User: bioinformatics_scripts
-
-  Pass: z072yyq
+  The output files of the alignment step e mm_ES_RXR_24h_ATRA.fastq.gz can be also downloaded from http://ngsdebftp.med.unideb.hu/bioinformatics/
 
 4. Calling peaks and finding de novo motives (bam file is produced by the previous script
 
@@ -112,13 +99,7 @@ The binaries of these programs should be added to PATH.
   ```
   sh callpeaks.sh mm_ES_RXR_24h_ATRA/bam/mm_ES_RXR_24h_ATRA.bam mm10
   ```
-The results (motifResults_10,12,14,16) can be found on 
-
-  <ftp://ngsdebftp.med.unideb.hu>
-
-  User: bioinformatics_scripts
-
-  Pass: z072yyq
+The results (motifResults_10,12,14,16) can be found on http://ngsdebftp.med.unideb.hu/bioinformatics/
 
 5. Finding motif occurences on the peaks found
   ```
@@ -127,13 +108,7 @@ The results (motifResults_10,12,14,16) can be found on
   sh remap_motif.sh mm_ES_RXR_24h_ATRA/peaks/mm_ES_RXR_24h_ATRA_homerpeaks.bed ${MOTIF} 200 mm10
   ```
 
-The results (mm_ES_RXR_24h_ATRA_homerpeaks_motif1_mm10s_200_remaped) can be downloaded from
-
-  <ftp://ngsdebftp.med.unideb.hu>
-
-  User: bioinformatics_scripts
-
-  Pass: z072yyq
+The results (mm_ES_RXR_24h_ATRA_homerpeaks_motif1_mm10s_200_remaped) can be downloaded from http://ngsdebftp.med.unideb.hu/bioinformatics/
 
 ## Bash scripts ##
 
@@ -151,11 +126,7 @@ sh remap_motif.sh <PEAK> <MOTIF> <SIZE> <GENOME>
 ```
 ### Results ###
 
-The whole result of this tutorial can be downloaded from 
-
-  <ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu>
-  
-  (User: bioinformatics_scripts, Pass: G3nom3s4u)
+The whole result of this tutorial can be downloaded from http://ngsdebftp.med.unideb.hu/bioinformatics/
 
 
 ## Authors ##
