@@ -106,6 +106,8 @@ The results (motifResults_10,12,14,16) can be found on ftp://bioinformatics_scri
   sh remap_motif.sh mm_ES_RXR_24h_ATRA/peaks/mm_ES_RXR_24h_ATRA_homerpeaks.bed ${MOTIF} 200 mm10
   ```
 
+The results (mm_ES_RXR_24h_ATRA_homerpeaks_motif1_mm10s_200_remaped) can be downloaded form ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu
+
 ## Bash scripts ##
 
 ### callpeaks.sh ###
