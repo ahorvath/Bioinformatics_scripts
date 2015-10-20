@@ -74,11 +74,12 @@ The binaries of these programs should be added to PATH.
 
 1. The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from
  
-<ftp://ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz>
+  <ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu>
+  (User: bioinformatics_scripts, Pass: G3nom3s4u)
 
-(User: igenome Pass: G3nom3s4u)
 2. BWA index files can be found 
-  [ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz](ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz)
+  <ftp://ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz>
+  (User: igenome, Pass: G3nom3s4u)
 
   To extract file: 
   ```
@@ -91,7 +92,8 @@ The binaries of these programs should be added to PATH.
   ```
 
   The output files of the alignment step e mm_ES_RXR_24h_ATRA.fastq.gz can be also downloaded from 
-  ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu
+  <ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu>
+  (User: bioinformatics_scripts, Pass: G3nom3s4u)
 
 4. Calling peaks and finding de novo motives (bam file is produced by the previous script
 
@@ -108,7 +110,10 @@ The results (motifResults_10,12,14,16) can be found on ftp://bioinformatics_scri
   sh remap_motif.sh mm_ES_RXR_24h_ATRA/peaks/mm_ES_RXR_24h_ATRA_homerpeaks.bed ${MOTIF} 200 mm10
   ```
 
-The results (mm_ES_RXR_24h_ATRA_homerpeaks_motif1_mm10s_200_remaped) can be downloaded form ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu
+The results (mm_ES_RXR_24h_ATRA_homerpeaks_motif1_mm10s_200_remaped) can be downloaded from
+   <ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu>
+  (User: bioinformatics_scripts, Pass: G3nom3s4u)
+
 
 ## Bash scripts ##
 
@@ -126,7 +131,10 @@ sh remap_motif.sh <PEAK> <MOTIF> <SIZE> <GENOME>
 ```
 ### Results ###
 
-The whole result of this tutorial can be downloaded from ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu
+The whole result of this tutorial can be downloaded from 
+  <ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu>
+  (User: bioinformatics_scripts, Pass: G3nom3s4u)
+
 
 ## Authors ##
 
