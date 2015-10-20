@@ -6,12 +6,12 @@ Please cite the following paper:
 
 
 
-TITLE: 
+## TITLE: 
 "Prediction and validation of gene regulatory elements activated during retinoic acid induced embryonic stem cell differentiation"
 
 
 
-AUTHORS: 
+## AUTHORS: 
 
 Zoltan Simandi1,§, Attila Horvath2,§, Gergely Peter Nagy1, Laszlo Nagy1,2,3
 
@@ -33,7 +33,7 @@ University of Debrecen, Egyetem ter 1, Debrecen, Hungary H-4012
 
 
 
-Dear Visitor!
+## Dear Visitor!
 
 
 This site is aiming to share bioinformatics scripts that are part of our workflow for 
