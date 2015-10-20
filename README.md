@@ -77,13 +77,16 @@ The binaries of these programs should be added to PATH.
   <ftp://ngsdebftp.med.unideb.hu>
 
   User: bioinformatics_scripts
+
   Pass: z072yyq
 
 2. BWA index files can be found 
 
   <ftp://ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz>
 
-  (User: igenome, Pass: G3nom3s4u)
+  User: igenome
+
+  Pass: G3nom3s4u
 
   To extract file: 
   ```
@@ -100,6 +103,7 @@ The binaries of these programs should be added to PATH.
   <ftp://ngsdebftp.med.unideb.hu>
 
   User: bioinformatics_scripts
+
   Pass: z072yyq
 
 4. Calling peaks and finding de novo motives (bam file is produced by the previous script
@@ -113,6 +117,7 @@ The results (motifResults_10,12,14,16) can be found on
   <ftp://ngsdebftp.med.unideb.hu>
 
   User: bioinformatics_scripts
+
   Pass: z072yyq
 
 5. Finding motif occurences on the peaks found
@@ -127,6 +132,7 @@ The results (mm_ES_RXR_24h_ATRA_homerpeaks_motif1_mm10s_200_remaped) can be down
   <ftp://ngsdebftp.med.unideb.hu>
 
   User: bioinformatics_scripts
+
   Pass: z072yyq
 
 ## Bash scripts ##
