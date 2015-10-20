@@ -65,6 +65,7 @@ The "Tutorial" part cover the following steps of the ChIP-seq data analysis:
 ## Prerequisites ##
 + BWA [http://bio-bwa.sourceforge.net](http://bio-bwa.sourceforge.net/)
 + SAMtools [http://samtools.sourceforge.net](http://samtools.sourceforge.net/)
++ BamTools [https://github.com/pezmaster31/bamtools]
 + HOMER [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html)
 
 ## Tutorial ##
@@ -100,7 +101,7 @@ The results (motifResults_10,12,14,16) can be found on ftp://bioinformatics_scri
   ```
   MOTIF=motifResults_10,12,14,16/mm_ES_RXR_24h_ATRA_motif_mm10_s300/homerResults/motif1.motif
 
-  sh remap_motif.sh mm_ES_RXR_24h_ATRA/peaks/mm_ES_RXR_24h_ATRA/mm_ES_RXR_24h_ATRA_homerpeaks.bed ${MOTIF} 200 mm10
+  sh remap_motif.sh mm_ES_RXR_24h_ATRA/peaks/mm_ES_RXR_24h_ATRA_homerpeaks.bed ${MOTIF} 200 mm10
   ```
 
 ## Bash scripts ##
@@ -117,23 +118,9 @@ sh callpeaks.sh <BAMFILE> <GENOME>
 ```
 sh remap_motif.sh <PEAK> <MOTIF> <SIZE> <GENOME>
 ```
-### Example ###
-```
-sh remap_motif.sh examples/example.bed examples/rxr.motif 200 mm10
-```
 ### Results ###
 
-a folder named example_rxr_mm10s_200_remaped containing the following files
-
-+ example_rxr_mm10s_200_remaped_mbed.bed  - containing genomic locations of the motives found (can be opened with https://www.broadinstitute.org/igv/)
-
-+ example_rxr_mm10s_200_remaped_w_motives.bed  - containing genomic locations of the input peaks and annotated with he motif files found (can be opened with https://www.broadinstitute.org/igv/)
-
-+ example_rxr_mm10s_200_remaped_w_motives.txt  - similar to the previous one but a pos file developed and preferred by Homer (can be opened with e.g. Excel) 
-
-+ example_rxr_mm10s_200_remaped.log  - a log file for debugging
-
-+ example_rxr_mm10s_200_remaped_w_motives.stat - a simple statistics of the motif occurences
+The whole result of this tutorial can be downloaded from ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu
 
 ## Authors ##
 
