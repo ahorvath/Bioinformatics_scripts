@@ -43,7 +43,7 @@ ChIP-seq data analysis.
 To be able to use them there are prerequisites and bioinformatics background is needed.  Software packages listed below under "Prerequisite" should be installed prior running any of the scripts.
 
 To download the content of this page to your computer please click on the 
-"Download ZIP". The downloaded files will include the scripts (perform_alignment.sh, callpeaks.sh, remap_motif.sh) and the output files obtained with the sample scripts during the analysis. 
+"Download ZIP". The downloaded files will include the scripts (perform_alignment.sh, callpeaks.sh, remap_motif.sh). 
 
 Some of the data and output files exceed the available size limit. Please find the links 
 
