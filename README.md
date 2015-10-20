@@ -73,8 +73,7 @@ The binaries of these programs should be added to PATH.
 ## Tutorial ##
 
 1. The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from 
-HTML <a href="ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu">this ftp link</a>
-[ftp](ftp://example.com/foo)
+<ftp://mirrors.sonic.net/cygwin>
 2. BWA index files can be found 
   [ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz](ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz)
 
