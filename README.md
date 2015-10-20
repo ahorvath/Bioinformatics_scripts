@@ -4,14 +4,16 @@ The following bioinformatics scripts and description was prepared as supplementa
 
 Please cite the following paper:
 
+
 TITLE: 
 "Prediction and validation of gene regulatory elements activated during retinoic acid induced embryonic stem cell differentiation"
+
 
 AUTHORS: 
 
 Zoltan Simandi1,§, Attila Horvath2,§, Gergely Peter Nagy1, Laszlo Nagy1,2,3
 
-c1 Sanford-Burnham-Prebys Medical Discovery Institute at Lake Nona, Orlando, FL, 
+1 Sanford-Burnham-Prebys Medical Discovery Institute at Lake Nona, Orlando, FL, 
 
 USA
 
@@ -26,6 +28,7 @@ Medicine, University of Debrecen, Medical and Health Science Center,  Egyetem te
 University of Debrecen, Egyetem ter 1, Debrecen, Hungary H-4012
 
 § These authors equally contributed to this work
+
 
 Dear Visitor!
 
@@ -63,10 +66,10 @@ The "Tutorial" part cover the following steps of the ChIP-seq data analysis:
 
 ## Tutorial ##
 
-The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from 
+1. The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from 
 [ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu](ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu)
 
-BWA index files can be found 
+2. BWA index files can be found 
 [ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz](ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz)
 
 To extract file: 
@@ -74,7 +77,7 @@ To extract file:
 tar xvfz Mus_musculus_UCSC_mm10.tar.gz
 ```
 
- Aligning the example fastq file to mm10 genome
+3. Aligning the example fastq file to mm10 genome
 ```
 sh perform_alignment.sh mm_ES_RXR_24h_ATRA.fastq.gz Mus_musculus/UCSC/mm10/Sequence/BWAIndex/version0.6.0/genome.fa
 ```
@@ -82,13 +85,13 @@ sh perform_alignment.sh mm_ES_RXR_24h_ATRA.fastq.gz Mus_musculus/UCSC/mm10/Seque
 The output files of the alignment step e mm_ES_RXR_24h_ATRA.fastq.gz can be also downloaded from 
 ftp://bioinformatics_scripts:z072yyq@ngsdebftp.med.unideb.hu
 
-Calling peaks and finding de novo motives (bam file is produced by the previous script
+4. Calling peaks and finding de novo motives (bam file is produced by the previous script
 
 Assumed that HOMER mm10 genome is installed, see [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html))
 ```
 sh callpeaks.sh mm_ES_RXR_24h_ATRA/bam/mm_ES_RXR_24h_ATRA.bam mm10
 ```
-Finding motif occurences on the peaks found
+5. Finding motif occurences on the peaks found
 ```
 MOTIF=motifResults_10,12,14,16/mm_ES_RXR_24h_ATRA_motif_mm10_s300/homerResults/motif1.motif
 
