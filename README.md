@@ -59,7 +59,7 @@ The "Tutorial" part cover the following steps of the ChIP-seq data analysis:
 + BamTools [https://github.com/pezmaster31/bamtools]
 + HOMER [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html)
 
-The binaries of these programs should be added to PATH. To learn more about PATH see http://stackoverflow.com/questions/7510249/path-environment-variable-in-linux
+The binaries of these programs should be added to PATH. To learn more about PATH, see http://stackoverflow.com/questions/7510249/path-environment-variable-in-linux
 
 ## Tutorial ##
 
@@ -159,5 +159,5 @@ ResearchGate
 ## License ##
 
 All source code is copyright, under the Artistic-2.0 License.
-For more information on Artistic-2.0 License see [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0)
+For more information on Artistic-2.0 License, see: [http://opensource.org/licenses/Artistic-2.0](http://opensource.org/licenses/Artistic-2.0)
 
