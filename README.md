@@ -40,14 +40,7 @@ This site is aiming to share bioinformatics scripts that are part of our workflo
 
 ChIP-seq data analysis.
 
-To be able to use them there are prerequisites and bioinformatics background is needed.  Software packages listed below under "Prerequisite" should be installed prior running any of the scripts.
-
-To download the content of this page to your computer please click on the 
-"Download ZIP". The downloaded files will include the scripts (perform_alignment.sh, callpeaks.sh, remap_motif.sh). 
-
-Some of the data and output files exceed the available size limit. Please find the links 
-
-below to access to those files (eg. raw data in fastq, BWA index file, motif files, etc.).
+To be able to use them there are prerequisites and bioinformatics background is needed.  Software packages listed below under "Prerequisite" should be installed prior running any of the scripts. To download the content of this page to your computer please check out this repository or click on the "Download ZIP". The downloaded files will include the scripts (perform_alignment.sh, callpeaks.sh, remap_motif.sh). Some of the data and output files exceed the available size limit. Please find the links below to access to those files (eg. raw data in fastq, BWA index file, motif files, etc.).
 
 The "Tutorial" part cover the following steps of the ChIP-seq data analysis:
 
@@ -68,25 +61,26 @@ The "Tutorial" part cover the following steps of the ChIP-seq data analysis:
 + BamTools [https://github.com/pezmaster31/bamtools]
 + HOMER [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html)
 
-The binaries of these programs should be added to PATH.
+The binaries of these programs should be added to PATH. To learn more about PATH see http://stackoverflow.com/questions/7510249/path-environment-variable-in-linux
 
 ## Tutorial ##
 
 1. The example fastq file mm_ES_RXR_24h_ATRA.fastq.gz can be downloaded from http://ngsdebftp.med.unideb.hu/bioinformatics/
 
  
-2. BWA index files can be found  <ftp://ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz>
+2. We use the Burrows-Wheeler Alignment Tool (BWA) for mapping the sequences against the reference genome.  
+Click on to <ftp://ussd-ftp.illumina.com/Mus_musculus/UCSC/mm10/Mus_musculus_UCSC_mm10.tar.gz> download the required BWA index file (Mus musculus, mm10).
 
   User: igenome
 
   Pass: G3nom3s4u
 
-  To extract file: 
+  Run the following command to extract the BWA index file:
   ```
   tar xvfz Mus_musculus_UCSC_mm10.tar.gz
   ```
 
-3. Aligning the example fastq file to mm10 genome
+3. Align the example fastq file to mm10 genome running the following command: 
   ```
   sh perform_alignment.sh mm_ES_RXR_24h_ATRA.fastq.gz Mus_musculus/UCSC/mm10/Sequence/BWAIndex/version0.6.0/genome.fa
   ```
@@ -98,9 +92,7 @@ The binaries of these programs should be added to PATH.
 
  can be also downloaded from http://ngsdebftp.med.unideb.hu/bioinformatics/
 
-4. Calling peaks and finding de novo motives (bam file is produced by the previous script
-
-  Assumed that HOMER mm10 genome is installed, see [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html))
+4. Use the HOMER software package for peak calling and de novo motif analysis. HOMER mm10 genome should be installed. For more details, see: [http://homer.salk.edu/homer/introduction/configure.html](http://homer.salk.edu/homer/introduction/configure.html))
   ```
   sh callpeaks.sh mm_ES_RXR_24h_ATRA/bam/mm_ES_RXR_24h_ATRA.bam mm10
   ```
