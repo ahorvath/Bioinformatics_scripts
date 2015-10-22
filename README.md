@@ -36,9 +36,7 @@ University of Debrecen, Egyetem ter 1, Debrecen, Hungary H-4012
 ## Dear Visitor!
 
 
-This site is aiming to share bioinformatics scripts that are part of our workflow for 
-
-ChIP-seq data analysis.
+This site is aiming to share bioinformatics scripts that are part of our workflow for ChIP-seq data analysis.
 
 To be able to use them there are prerequisites and bioinformatics background is needed.  Software packages listed below under "Prerequisite" should be installed prior running any of the scripts. To download the content of this page to your computer please check out this repository or click on the "Download ZIP". The downloaded files will include the scripts (perform_alignment.sh, callpeaks.sh, remap_motif.sh). Some of the data and output files exceed the available size limit. Please find the links below to access to those files (eg. raw data in fastq, BWA index file, motif files, etc.).
 
@@ -115,6 +113,13 @@ The results (mm_ES_RXR_24h_ATRA_homerpeaks_motif1_mm10s_200_remaped) can be down
 ```
 sh callpeaks.sh <BAMFILE> <GENOME>
 ```
+### perform_alignment.sh ###
+
+### Usage ###
+```
+sh perform_alignment.sh <FASTQFILE> <GENOME>
+```
+
 ### remap_motif.sh ###
 
 ### Usage ###
